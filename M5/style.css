@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: #F5C45E;
+    background-color: #102E50;
+    
+    padding-top: 10px;
+}
+header{
+    text-align: center;
+    background-color: #102E50;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul, li{
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    justify-content: center;
+    
+}
+li {
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    background-color: #AFDDFF;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.container{
+    padding-top: 10px;
+}
+.about{
+    background-color: white;
+    margin-top: 10px;
+}
+.products{
+    margin-top: 10px;
+    background-color: white;
+    align-items: center;
+    display: flex ;
+    justify-content: center;
+    
+}
+body{
+    background-color: #ebebeb;
+}
+.contact{
+    background-color: white;
+    margin-top: 10px;
+}
+footer{
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px 5px 0 0;
+}
+.product-card{
+    margin-left: 30%;
+    transition: 0.3s;
+    width: 50%;
+    border-radius: 5px; 
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.price{
+    font-weight: bold;
+}
